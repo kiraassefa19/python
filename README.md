@@ -1,23 +1,51 @@
-# python
+# Solar Radiation Measurement Data
 
-Solar Radiation Measurement Data
+## Python EDA Project with Pandas and Streamlit
 
-● Timestamp (yyyy-mm-dd hh:mm): Date and time of each observation.
-● GHI (W/m²): Global Horizontal Irradiance, the total solar radiation received per square meter on a horizontal surface.
-● DNI (W/m²): Direct Normal Irradiance, the amount of solar radiation received per square meter on a surface perpendicular to the rays of the sun.
-● DHI (W/m²): Diffuse Horizontal Irradiance, solar radiation received per square meter on a horizontal surface that does not arrive on a direct path from the sun.
-● ModA (W/m²): Measurements from a module or sensor (A), similar to irradiance.
-● ModB (W/m²): Measurements from a module or sensor (B), similar to irradiance.
-● Tamb (°C): Ambient Temperature in degrees Celsius.
-● RH (%): Relative Humidity as a percentage of moisture in the air.
-● WS (m/s): Wind Speed in meters per second.
-● WSgust (m/s): Maximum Wind Gust Speed in meters per second.
-● WSstdev (m/s): Standard Deviation of Wind Speed, indicating variability.
-● WD (°N (to east)): Wind Direction in degrees from north.
-● WDstdev: Standard Deviation of Wind Direction, showing directional variability.
-● BP (hPa): Barometric Pressure in hectopascals.
-● Cleaning (1 or 0): Signifying whether cleaning (possibly of the modules or sensors) occurred.
-● Precipitation (mm/min): Precipitation rate measured in millimeters per minute.
-● TModA (°C): Temperature of Module A in degrees Celsius.
-● TModB (°C): Temperature of Module B in degrees Celsius.
-● Comments: This column is designed for any additional notes.
+### Overview
+
+This project showcases Exploratory Data Analysis (EDA) using Python, primarily relying on the Pandas library for data manipulation and analysis, and Streamlit for building interactive web applications.
+
+#### clone the repository
+
+     git clone https://github.com/kiraassefa19/python.git
+
+#### Navigation to the project directory:
+
+      cd app
+
+#### Install the required dependencies:
+
+    pip install -r requirements.txt
+
+### Usage
+
+Ensure your dataset is ready in CSV format.
+
+Run the Streamlit application:
+
+    streamlit run main.py
+
+Open your web browser and navigate to the provided URL (usually http://localhost:8501).
+
+Upload your dataset using the file uploader widget in the Streamlit app.
+
+Explore your data using the various functionalities provided in the app.
+
+### File Structure
+
+The project files are organized as follows:
+
+    main.py: Contains the main Streamlit application code.
+
+requirements.txt: Lists all the Python dependencies required for the project.
+
+Contributions are welcomed! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Acknowledgments
+
+This project is part of the 10Academy week0 project, demonstrating the necessity for an intuitive tool for Exploratory Data Analysis. Special thanks to the tenx team, 10Academy, their partners, and to the developers of Pandas and Streamlit for creating such powerful libraries.
